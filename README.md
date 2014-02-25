@@ -44,6 +44,7 @@ How to create a Rule Set?
 
 To create a ruleset you need add a file with the same name in the ruleset folder. The format of this file is.
 Example for a ruleset named as test1: 
+
     exports.test1 = { // you need export the ruleset to become visible to Rulez Engine.
         returnType:"boolean", // this is a returnType you expect. Right now just support boolean but, Score, and data 
         rules:[ // this is a array with all rules
