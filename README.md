@@ -3,7 +3,7 @@ rulez
 
 A Business Rule Engine for rule them all
 
-version: 0.0.1
+version: 0.0.2
 
 Business Rules Engine is a kind of software developed to support environments where the rules changes in a regular base like risk evaluation, text analysis, data mining and others softwares designed to decision making.
 
