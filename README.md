@@ -1,4 +1,4 @@
-rulez
+rulezb
 =====
 
 A Business Rule Engine for rule them all
@@ -16,7 +16,7 @@ This BRE are under develop to support rules in string format, functions and meth
 how to test:
 
 show the help
-    node rulez.js -h
+    node rulezb.js -h
     Rulez
     A Business Rule Engine for rule them all.
     parameters:
@@ -27,9 +27,9 @@ show the help
     by Ivo Nascimento [iannsp at gmail . com].
     
     
-    node rulez.js -r test1 -f '{"sexo":"masculino","idade":30}' // return 1  
+    node rulezb.js -r test1 -f '{"sexo":"masculino","idade":30}' // return 1  
 
-    node rulez.js -r test1 -f '{"sexo":"masculino","idade":5}' // return 0 
+    node rulezb.js -r test1 -f '{"sexo":"masculino","idade":5}' // return 0 
     
 
 What is a a fact?
