@@ -2,7 +2,7 @@
   "author": "Ivo Nascimento <iannsp@gmail.com>",
   "name": "rulezb",
   "description": "A Business Rule Engine for rule them all",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "repository": {
     "url": "https://github.com/iannsp/rulezb"
   },
@@ -26,5 +26,9 @@
     "bre",
     "rule"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iannsp/rulezb/issues"
+  },
+  "homepage": "https://github.com/iannsp/rulezb"
 }
