@@ -1,16 +1,30 @@
 {
   "author": "Ivo Nascimento <iannsp@gmail.com>",
-  "name": "rulez",
+  "name": "rulezb",
   "description": "A Business Rule Engine for rule them all",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
-    "url": ""
+    "url": "https://github.com/iannsp/rulezb"
   },
-  "main": "rulez.js",
+  "main": "rulezb.js",
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
     "node": "*"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "business",
+    "rule",
+    "engine",
+    "bre",
+    "rule"
+  ],
+  "license": "MIT"
 }
