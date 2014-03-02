@@ -15,7 +15,7 @@ if (cmd && cmd.mode == "commandline"){
         if (!bre.setRuleSet(cmd.ruleset)){
             process.stdout.write("RuleSet "+cmd.ruleset+" does not exist.\n");
         };
-        
-        console.log(bre.run(cmd.fact));
+    results = bre.run(cmd.fact);
+    console.log(bre.respond(results));
 //    process.stdout.write( bre.run(cmd.fact));
 }
