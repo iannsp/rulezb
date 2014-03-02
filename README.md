@@ -3,7 +3,7 @@ rulezb
 
 A Business Rule Engine for rule them all
 
-version: 0.0.4
+version: 0.0.5
 
 Business Rules Engine is a kind of software developed to support environments where the rules changes in a regular base like risk evaluation, text analysis, data mining and others softwares designed to decision making.
 
@@ -64,3 +64,8 @@ changeLog
 0.0.3: Support nested rules and  the use of functions as ReturnType.
 
 0.0.4: Support to 'expr' type as ReturnType. An evaluable instruction with a result. 
+
+0.0.5: Support daemon -d mode.
+
+// how to use
+    node rulezb.js -d -p 3000 -r returnTypeExpression
