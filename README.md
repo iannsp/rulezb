@@ -3,7 +3,7 @@ rulezb
 
 A Business Rule Engine for rule them all
 
-version: 0.0.2
+version: 0.0.4
 
 Business Rules Engine is a kind of software developed to support environments where the rules changes in a regular base like risk evaluation, text analysis, data mining and others softwares designed to decision making.
 
@@ -52,3 +52,15 @@ Example for a ruleset named as test1:
                 function(data){return (data.idade >10);} // You can create rules in function format where data is the JSON Fact you provide
             ]
     };
+
+
+changeLog
+=====
+
+0.0.1: Test the ideia in run string rules(A rule described in logical statements).
+
+0.0.2: Support more complex logic into the rules supporting function as a rule. 
+
+0.0.3: Support nested rules and  the use of functions as ReturnType.
+
+0.0.4: Support to 'expr' type as ReturnType. An evaluable instruction with a result. 
